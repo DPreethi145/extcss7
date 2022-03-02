@@ -1,0 +1,65 @@
+.box1{
+    width:200px;
+    height:200px;
+    background-color: rgb(198, 140, 252);
+    animation-name: box;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    position: absolute;
+}
+@keyframes box{
+0% {
+    top: 0px;
+    left: 0px;
+}
+25% {
+    background-color: bisque;
+    top: 0px;
+    left: 400px;
+}
+50% {
+    background-color:blue;
+    top: 500px;
+    left: 400px;
+}
+75% {
+    background-color: lightgreen;
+    top: 500px;
+    left: 0px;
+}
+100% {
+    background-color: chartreuse;
+    top: 0px;
+    left: 0px;
+}
+}
+.box2{
+    width:100px;
+    height:100px;
+    background-color: darkblue;
+    border-radius: 50%;
+    animation-name: ball;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left:200px;
+}
+@keyframes ball{
+    0%{
+        top:0px;
+    }
+    50%{
+        top:500px;
+        left:200px;
+    }
+    100%{
+        top:0px;
+    }
+}
+body{
+background-color: fuchsia;
+}
+h1{
+ text-shadow: 2px 2px 2px red;
+}
